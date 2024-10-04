@@ -40,6 +40,7 @@ int main(){
     std::cout << "Time: " << time2 << std::endl;
 }
 
+
 int linear_search(std::vector<std::string> array, const std::string &string_to_find){
     for (int i = 0; i < array.size(); i++) {
         if (array[i].compare(string_to_find) == 0) {
